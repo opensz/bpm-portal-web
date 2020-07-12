@@ -49,7 +49,8 @@ export default {
   },
   computed: {
     isShowJob() {
-      return this.$store.getters.language === 'zh'
+      return false
+      // return this.$store.getters.language === 'zh'
     },
     fixedHeader: {
       get() {
